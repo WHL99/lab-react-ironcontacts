@@ -32,7 +32,106 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+.container {
+  position: relative;
+  background: rgb(5, 36, 0);
+  background: linear-gradient(60deg, rgba(5, 36, 0, 1) 1%, rgba(78, 9, 121, 1) 20%, rgba(0, 255, 211, 0.9206276260504201) 100%);
+
+}
+
+.the-table {
+  width: 70%;
+  position: relative;
+  border: 12px solid rgba(23, 232, 86, 0.808);
+  border-radius: 0.1rem;
+  padding: 4rem;
+  margin-bottom: 4rem;
+  margin:auto;
+  font-size: 1.35em;
+  font-family: "Lucida Console", monospace;
+
+  background: rgb(5, 36, 0);
+  background: linear-gradient(60deg, rgba(5, 36, 0, 1) 1%, rgba(78, 9, 121, 1) 20%, rgba(0, 255, 211, 0.9206276260504201) 100%);
+
+}
+
+
+
+.tr {
+  color: rgb(255, 255, 255);
+  font-size: 1em;
+  font-weight: lighter;
+  font-family: "Copperplate", Fantasy;
+  border: 50px solid rgba(9, 75, 29, 0.808);
+  background-color: rgba(214, 13, 33, 0.356); 
+}
+
+.th{
+  padding: 0.3rem 1.6rem;
+  border: 0.1px solid rgba(230, 14, 61, 0.52);
+  margin-bottom: 10rem;
+}
+
+tbody{
+  background-color: rgba(224, 120, 130, 0.183);
+}
+
+.td-photo{
+ background-color: rgba(255, 255, 255, 0.19);
+  
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding:1rem 1.8rem;
+  
+}
+
+.td-name{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding:1rem 1.8rem;
+ 
+}
+
+.td-pop{
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.td-osc{
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.td-em{
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.td-act{
+  padding:1rem;
+  padding-left:1.6rem;
+}
+button{
+  background-color: rgba(223, 228, 171, 0.774);
+  border-radius: 0.7rem;
+  padding:0.6rem 1.3rem;
+}
+
+.button-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left:55%;
+  padding-right:15%;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
