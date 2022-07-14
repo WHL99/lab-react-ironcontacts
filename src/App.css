@@ -1,3 +1,8 @@
+body{
+  background: rgb(5, 36, 0);
+  background: linear-gradient(60deg, rgba(5, 36, 0, 1) 1%, rgba(78, 9, 121, 1) 20%, rgba(0, 255, 211, 0.9206276260504201) 100%);
+
+}
 .App {
   text-align: center;
 }
@@ -38,29 +43,25 @@
   }
 }
 
-.container {
+/* .container {
   position: relative;
-  background: rgb(5, 36, 0);
-  background: linear-gradient(60deg, rgba(5, 36, 0, 1) 1%, rgba(78, 9, 121, 1) 20%, rgba(0, 255, 211, 0.9206276260504201) 100%);
-
-}
+} */
 
 .the-table {
   width: 70%;
   position: relative;
-  border: 12px solid rgba(23, 232, 86, 0.808);
+  border: 30px solid rgba(23, 232, 86, 0.808);
   border-radius: 0.1rem;
   padding: 4rem;
   margin-bottom: 4rem;
   margin:auto;
   font-size: 1.35em;
   font-family: "Lucida Console", monospace;
-
+  margin-bottom: 23vh;
   background: rgb(5, 36, 0);
   background: linear-gradient(60deg, rgba(5, 36, 0, 1) 1%, rgba(78, 9, 121, 1) 20%, rgba(0, 255, 211, 0.9206276260504201) 100%);
 
 }
-
 
 
 .tr {
@@ -120,7 +121,8 @@ tbody{
   padding-left:1.6rem;
 }
 button{
-  background-color: rgba(223, 228, 171, 0.774);
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
   border-radius: 0.7rem;
   padding:0.6rem 1.3rem;
 }
@@ -135,3 +137,12 @@ button{
   padding-bottom: 5vh;
 }
 
+h1 {
+  font-size: 84px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  padding-top:0vh;
+  margin-bottom: -2vh;
+}
